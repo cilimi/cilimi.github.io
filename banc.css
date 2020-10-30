@@ -1,0 +1,40 @@
+HTML { overflow-x :hidden ; }
+body{
+    margin: 30px;
+}
+.PrimHead{
+    z-index: 100;
+    background-color: aqua;
+    padding: 2px; 
+    height: 4.5rem; 
+}
+.nav li{
+    display: inline;
+    text-align: center;
+}
+.mainPrem{
+    position: relative;
+}
+#decoImg2{ 
+    background-image: url(images/bg-intro-desktop.svg);
+    z-index: 5;
+    position: relative;
+    width: 77%;
+    height: 29%;
+    top: -148px;
+    left: 220px;
+}
+#decoImg3{
+    /*background-image: url(images/bg-intro-mobile.svg);*/
+    z-index: 5;
+    position: absolute;
+    top: 126px;
+    left: 137px;
+}
+
+
+    
+
+footer{
+    background-color: lime;
+}
